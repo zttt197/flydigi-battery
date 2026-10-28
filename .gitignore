@@ -1,0 +1,19 @@
+# 构建产物
+bin/
+obj/
+publish/
+*.exe
+*.pdb
+*.dll
+!docs/**/*.dll
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# 诊断抓包（含设备路径，不进版本库）
+*.hexdump
+diag-*.txt
